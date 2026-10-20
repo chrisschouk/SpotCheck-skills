@@ -1,0 +1,9 @@
+{
+  "name": "spotcheck-skills",
+  "description": "Agent skills for vetting Spotify playlists: bot-risk verdict, red flags, curator pitch check, handoff.",
+  "version": "0.1.0",
+  "author": "Chris Schofield",
+  "homepage": "https://spotcheck.cc",
+  "repository": "https://github.com/chrisschouk/SpotCheck-skills",
+  "license": "MIT"
+}
