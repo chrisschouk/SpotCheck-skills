@@ -51,6 +51,11 @@ of 100% accuracy. A verdict is a risk reading, not a promise.
 These skills are free and stay free. [SpotCheck](https://spotcheck.cc) Pro adds
 bulk checks, history and export. Premium adds curator contacts and cloud alerts.
 
+## More skill packs
+
+- [NewsJack-skills](https://github.com/chrisschouk/NewsJack-skills): newsjack the trade press without claiming what is not yours.
+- [TAP-skills](https://github.com/chrisschouk/TAP-skills): run a release campaign end to end.
+
 ## Licence
 
 MIT. See `LICENSE`. The SpotCheck name and logo are not covered. See `TRADEMARK.md`.
