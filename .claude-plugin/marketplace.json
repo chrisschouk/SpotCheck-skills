@@ -1,0 +1,11 @@
+{
+  "name": "spotcheck-skills",
+  "owner": { "name": "Chris Schofield" },
+  "plugins": [
+    {
+      "name": "spotcheck-skills",
+      "source": "./",
+      "description": "Artificial streaming warning triage and Spotify playlist vetting, from SpotCheck."
+    }
+  ]
+}

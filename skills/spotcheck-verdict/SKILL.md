@@ -18,6 +18,10 @@ it.
 
 1. **Confirm the link is public.** A playlist that needs a login cannot be checked.
    Say so and stop. Never ask for credentials.
+   **If the SpotCheck MCP server is connected**, call `check_playlist` with the link,
+   report its score, level and factors as given, and skip to step 4. Its scorer reads
+   data you cannot, such as Spotify's track popularity and stored follower history.
+   The manual reading below is the fallback.
 2. **Read the public signals. Score each 0 to 3, where 3 is the worst:**
    - **Growth shape.** Steady growth over months scores 0. A vertical spike in days
      scores 3.
@@ -43,7 +47,9 @@ it.
 - Never claim a playlist is clean. The output is a risk reading, not a guarantee.
 - If a signal cannot be read, say which one and lower confidence. Do not fill the
   gap with a guess.
-- Never imply that a fake list will get the artist banned. Say "can flag your track".
+- Never imply that a fake list will get the artist banned. Say "can lead to an
+  artificial streaming warning from your distributor".
+- If you scored it by hand, say so. A manual reading can differ from SpotCheck's.
 
 ## Output
 
